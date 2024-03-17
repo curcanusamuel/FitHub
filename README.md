@@ -1,2 +1,0 @@
-# FitHub
-Java Aplication
