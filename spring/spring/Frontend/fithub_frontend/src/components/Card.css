@@ -1,0 +1,31 @@
+.card {
+    background-color: #e99384; /* Softer red for buttons */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.card-buttons button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.card-buttons button:hover {
+    color: #cc7352; /* Slightly brighter on hover */
+}

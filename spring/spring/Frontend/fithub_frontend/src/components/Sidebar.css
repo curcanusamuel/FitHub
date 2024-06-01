@@ -1,0 +1,39 @@
+.sidebar {
+    width: 200px;
+    background-color: #b22222; /* Soft red color */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex-shrink: 0; /* Prevent the sidebar from shrinking */
+    max-height: 100%; /* Make the sidebar take full height of the content */
+    overflow-y: auto; /* Add scroll for sidebar itself if content overflows */
+    position: sticky; /* Stick to the top when scrolling */
+    top: 0; /* Stick to the top */
+}
+
+.sidebar .tab-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; /* Add some space between the top and buttons */
+}
+
+.sidebar .tab-buttons button {
+    background-color: #ff6347; /* Softer red for buttons */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    width: 100%; /* Make the button take full width */
+}
+
+.sidebar .tab-buttons button:hover {
+    background-color: #ff4500; /* Slightly brighter on hover */
+}
+
+.sidebar .tab-buttons button.selected {
+    background-color: #ff6347;
+}

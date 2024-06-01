@@ -1,0 +1,100 @@
+@import './EditPopup.css';
+@import './Card.css';
+@import './Sidebar.css';
+@import './Content.css';
+@import './TrainerClientsPopup.css';
+
+.manager-account {
+    display: flex;
+    flex-direction: column; /* Adjust to allow top bar */
+    height: 100vh; /* Full height of the viewport */
+}
+
+.top-bar {
+    width: 100%;
+    background-color: #f8f9fa; /* Light grey color from login page */
+    color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar img {
+    width: 60px; /* Adjust as needed */
+}
+
+.main-content {
+    display: flex;
+    flex-grow: 1;
+}
+
+.add-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #b22222; /* Red color theme */
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 1000;
+}
+
+.add-button:hover {
+    background-color: #ff6347;
+}
+.bottom-buttons {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    z-index: 1000;
+}
+
+.show-clients-without-trainers-button, .generate-random-clients-button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.show-clients-without-trainers-button:hover, .generate-random-clients-button:hover {
+    background-color: #ff4500;
+}
+.bottom-buttons {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    z-index: 1000;
+}
+
+.show-clients-without-trainers-button,
+.generate-random-clients-button,
+.delete-all-clients-button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.show-clients-without-trainers-button:hover,
+.generate-random-clients-button:hover,
+.delete-all-clients-button:hover {
+    background-color: #ff4500;
+}
