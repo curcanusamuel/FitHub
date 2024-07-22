@@ -1,4 +1,4 @@
-# FitHub
+# Fitness-Management-Website
 ## Java App
 
 ## Description
