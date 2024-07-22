@@ -77,6 +77,3 @@ Trainers: Trainers are professionals who provide personalized coaching and guida
 - Upon successful login, it opens a management page for clients, trainers, and staff.
 - The management page provides various functionalities, such as adding new clients and trainers, assigning clients to trainers, deleting clients and trainers, and managing staff members.
 
-
-
-## License
